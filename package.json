@@ -12,7 +12,9 @@
   "engines": {
     "node": ">=4.0"
   },
-  "files": ["index.js"],
+  "files": [
+    "index.js"
+  ],
   "main": "index.js",
   "bin": {
     "dotenv-filter": "index.js"
