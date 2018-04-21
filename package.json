@@ -1,0 +1,29 @@
+{
+  "name": "dotenv-filter-cli",
+  "version": "0.0.0",
+  "description": "Filter dotenv variables ",
+  "author": "Kees Kluskens <kees@webduck.nl>",
+  "license": "ISC",
+  "repository": "SpaceK33z/dotenv-filter-cli",
+  "keywords": [
+    "env",
+    "dotenv"
+  ],
+  "engines": {
+    "node": ">=4.0"
+  },
+  "main": "index.js",
+  "bin": {
+    "dotenv-filter": "index.js"
+  },
+  "scripts": {
+    "test": "ava"
+  },
+  "dependencies": {
+    "minimist": "^1.2.0"
+  },
+  "devDependencies": {
+    "ava": "^0.25.0",
+    "execa": "^0.10.0"
+  }
+}
