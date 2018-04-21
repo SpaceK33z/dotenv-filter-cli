@@ -1,7 +1,7 @@
 {
   "name": "dotenv-filter-cli",
   "version": "0.0.0",
-  "description": "Filter dotenv variables ",
+  "description": "Reverse of dotenv; filter env variables and output them in the dotenv format",
   "author": "Kees Kluskens <kees@webduck.nl>",
   "license": "ISC",
   "repository": "SpaceK33z/dotenv-filter-cli",
