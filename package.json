@@ -20,7 +20,8 @@
     "dotenv-filter": "index.js"
   },
   "scripts": {
-    "test": "ava"
+    "test": "ava",
+    "preversion": "npm t"
   },
   "dependencies": {
     "minimist": "^1.2.0"
