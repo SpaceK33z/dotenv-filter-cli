@@ -23,7 +23,7 @@ if (argv.suffix) {
 }
 
 if (!envKeys.length) {
-  // process.exit(1);
+  process.exit(1);
 }
 
 envKeys.forEach(key => {
